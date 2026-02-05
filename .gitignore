@@ -1,0 +1,49 @@
+# --------------------------
+# LaTeX Build Artifacts
+# --------------------------
+*.aux
+*.bbl
+*.blg
+*.brf
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.nav
+*.out
+*.snm
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Intermediate files from latexmk or TeXstudio
+*.xdv
+*.run.xml
+
+# PDF/Compiled outputs (optional)
+# Uncomment if you DO NOT want compiled PDFs in git
+# *.pdf
+
+# --------------------------
+# Editors and IDEs
+# --------------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# --------------------------
+# OS files
+# --------------------------
+.DS_Store
+Thumbs.db
+
+# --------------------------
+# Backup & temp files
+# --------------------------
+*~
+*.tmp
+*.bak
+*.backup

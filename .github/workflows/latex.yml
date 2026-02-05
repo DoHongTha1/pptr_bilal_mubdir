@@ -1,0 +1,45 @@
+name: Build LaTeX
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'docs/latex/**'
+      - '.github/workflows/latex.yml'   # ensure edits to the workflow itself can test-run
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'docs/latex/**'
+      - '.github/workflows/latex.yml'
+  workflow_dispatch: {}                 # allow manual runs anytime
+
+jobs:
+  build_latex:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: docs/latex   # all `run` commands execute from here
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install LaTeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y texlive-full latexmk
+
+      # Compile ONLY .tex files in docs/latex
+      - name: Compile all .tex files in docs/latex
+        run: |
+          shopt -s nullglob
+          for f in *.tex; do
+            echo "Compiling $f"
+            latexmk -pdf -silent -halt-on-error "$f"
+          done
+
+      - name: Upload PDFs as workflow artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: compiled-pdfs
+          path: docs/latex/*.pdf

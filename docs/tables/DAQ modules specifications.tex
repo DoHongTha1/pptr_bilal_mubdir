@@ -1,0 +1,23 @@
+\begin{table*}[t]
+    \centering
+    \footnotesize
+    \caption{Summary of modules used in the DAQ system.}
+    \begin{tabular}{>{\raggedright}p{3.5cm} >{\centering}p{1.8cm} >{\centering}p{3cm} >{\raggedright\arraybackslash}p{7cm}}
+        \toprule
+        \bf{Module}  & \bf{Quantity} & \bf{Function} & \bf{Specifications}\\
+        \midrule
+        NodeMCU & 1 & \thead[c]{Micrcontroller\\and Wi-Fi\\proxy} & \thead[l]{CPU Speed: \SI{160}{\mega\hertz}, Wi-Fi: 802.11 b/g/n, \SI{2.4}{\giga\hertz},\\
+                                                                                Memory: 32 Mbit, Voltage: 3-\SI{3.6}{\volt}}\\
+                                                                                Interfaces: UART, GPIO, PWM, I$^2$C\\                                      
+        CJMCU-266 & 3 & \thead[c]{Measuring\\electrical\\parameters} & \thead[l]{Interface: I$^2$C or SMBus compatible,\\	
+                                                                                Measured Voltage: 0-\SI{36}{\volt}, Current Range: \SI{-20}{\milli\ampere} to \SI{20}{\milli\ampere},\\
+                                                                                Supply Voltage:	2.7-\SI{5.5}{\volt}, Accuracy: 0.1\% max gain error,\\
+                                                                                Max offset:  \SI{10}{\micro\volt}, Resolution:	16-bit for}\\ 
+         
+        HX711 & 1 & \thead[c]{ADC\\for load cells\\signals} & \thead[l]{ADC Resolution: 24-bit, Input Channels: 2 differential,\\
+                                                                                Voltage: 2.6-\SI{5.5}{\volt}, Current: $<$\SI{1.5}{\milli\ampere},\\       
+                                                                                Data Rate: up to 80 sample/s,  Interface: Simple 2-wire serial}\\                                                                                               
+        \bottomrule
+    \end{tabular}
+    \label{tab: ch3 DAQ componenets}
+\end{table*}

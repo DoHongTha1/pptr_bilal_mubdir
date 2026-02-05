@@ -1,0 +1,31 @@
+{
+  "title": "An Open-Source Experimental Platform for UAV Propeller and Propulsion System Evaluation Documentation",
+  "upload_type": "dataset",
+  "publication_type": "other",
+  "description": "This repository contains open-source engineering documentation for an Open-Source Experimental Platform for UAV Propeller and Propulsion System Evaluation, including mechanical drawings, circuit schematics, block diagrams, and LaTeX-formatted specification tables. These materials accompany the research paper: \"[Paper Title]\".",
+  "creators": [
+    {
+      "name": "Mubdir, Bilal",
+      "affiliation": "University of Leiecester, School of Engineering",
+      "orcid": "0000-0001-8096-8027"
+    }
+  ],
+  "keywords": [
+    "open hardware",
+    "Propeller testing",
+    "Thrust stand",
+    "Torque measurement",
+    "Power measurement",
+    "UAV propulsion",
+    "Wind tunnel instrumentation"
+  ],
+  "access_right": "open",
+  "license": "CERN-OHL-S-2.0",
+  "notes": "This repository includes LaTeX files, schematics, PDFs, and compiled engineering documentation.",
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/bilalmubdir/pptr_bilal_mubdir"
+    }
+  ]
+}
