@@ -114,8 +114,6 @@ A linear mapping between Raw load cell voltage and True torque force (N·m) shou
 ## 📡 Remote Client Command List
 The following commands are used to control the PPTR, operate the motor, read sensors, and perform calibration routines from the Remote Client Application.
 
-<div style="font-size:5px; border:1px solid #ccc;">
-
 | Command |  Syntax  | Description | Input Range / Notes |
 |--------|----------|-------------|----------------------|
 | **Send ESC signal + read sensors** | `CM1,<X>` | Sends ESC control signal *and* reads thrust/torque sensors. | `X = 0–180` (Speed → 0–Max) |
@@ -126,7 +124,7 @@ The following commands are used to control the PPTR, operate the motor, read sen
 | **Safe motor shutdown** | `CM6` | Gradually reduces ESC signal to zero. | No input |
 | **Safe motor startup** | `CM7,<X>` | Starts motor safely and ramps signal to target value. | `X = 0–180` (Speed → 0–Max) |
 | **System status check** | `CM8` | Reports system status, and safety flags. | No input |
-</div>
+
 ### Notes
 - Commands are case-insensitive unless otherwise specified.
 - Always run `CM5` (tare) after powering the device or repositioning sensors.
