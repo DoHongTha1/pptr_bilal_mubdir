@@ -114,7 +114,7 @@ A linear mapping between Raw load cell voltage and True torque force (N·m) shou
 ## 📡 Remote Client Command List
 The following commands are used to control the PPTR, operate the motor, read sensors, and perform calibration routines from the Remote Client Application.
 
-<div style="font-size:7px; border:1px solid #ccc;">
+<div style="font-size:5px; border:1px solid #ccc;">
 
 | Command |  Syntax  | Description | Input Range / Notes |
 |--------|----------|-------------|----------------------|
