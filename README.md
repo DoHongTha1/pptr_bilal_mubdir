@@ -13,8 +13,6 @@
 
 # Propeller Performance Test Rig Documentation
 [![License: CERN-OHL-S](https://img.shields.io/badge/License-CERN--OHL--S-blue.svg)](LICENSE)
-[![Build LaTeX](https://github.com/bilalmubdir/pptr_bilal_mubdir/actions/workflows/latex.yml/badge.svg)](https://github.com/bilalmubdir/pptr_bilal_mubdir/actions)  
-
   
 ## 📘 Overview
 This repository contains open‑source engineering documentation for the Propeller Performance Test Rig, including mechanical drawings, circuit schematics, block diagrams, and specification tables.
