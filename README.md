@@ -2,7 +2,7 @@
   <tr>
     <!-- Left: PNG image (30%) -->
     <td width="30%" align="center" valign="middle">
-      <img src="docs/figures/misc/pptr_cover2.png" height="300">
+      <img src="docs/figures/misc/pptr_cover.png" height="300">
     </td>
     <!-- Right: SVG banner (70%) -->
     <td width="70%" align="center" valign="middle">
@@ -246,7 +246,7 @@ If you use this repository in academic work:
 
 ```bibtex
 @misc{pptrDocumentationBilal2026,
-  author       = {Bilal Mubdir},
+  author       = {Bilal Mubdir, Emmanuel Prempain},
   title        = {Propeller Performance Test Rig Documentation},
   year         = {2026},
   howpublished = {GitHub repository},
