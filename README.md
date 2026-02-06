@@ -268,7 +268,5 @@ Please:
 - Email: bama4@le.ac.uk / bilal.mubdir -->
 
 ## License
-This project is licensed under the CERN Open Hardware License Version 2 – Strongly Reciprocal (CERN‑OHL‑S).  
-See the LICENSE file for the full legal text.
-
+This project is licensed under the CERN Open Hardware License Version 2 – Strongly Reciprocal (CERN‑OHL‑S).
 
