@@ -249,7 +249,7 @@ If you use this repository in academic work:
 
 ```bibtex
 @misc{pptrDocumentationBilal2026,
-  author       = {Bilal Mubdir, Emmanuel Prempain},
+  author       = {Bilal Mubdir and Emmanuel Prempain},
   title        = {Propeller Performance Test Rig Documentation},
   year         = {2026},
   howpublished = {GitHub repository},
